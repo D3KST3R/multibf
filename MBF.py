@@ -97,7 +97,7 @@ def login():
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
-		print"\033[1;92m"
+
         os.system('figlet AUTO MBF')
 		print"\033[1;93m=========================================="
 		print"\033[1;92m{*}\033[1;97mgithub : https://github.com/D3KSTER"
